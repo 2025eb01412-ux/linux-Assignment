@@ -1,0 +1,11 @@
+File Access and I/O Investigation Report
+
+Open files were displayed using the lsof command.
+
+System resource limits were checked using ulimit -a.
+
+Standard output was redirected to output.txt.
+
+Standard error was redirected to error.txt.
+
+Linux manages input and output using file descriptors and supports redirection of standard input, output, and error streams.
