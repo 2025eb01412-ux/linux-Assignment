@@ -1,0 +1,9 @@
+The original file, hard link, and symbolic link were created successfully.
+
+The hard link shared the same inode as the original file.
+
+The symbolic link had a different inode.
+
+After deleting the original file, the hard link still accessed the data, while the symbolic link became invalid.
+
+This demonstrates the difference between hard links and symbolic links.
