@@ -1,0 +1,17 @@
+1. whoami
+Displays the current logged-in username.
+
+2. groups
+Displays the groups associated with the current user.
+
+3. echo $SHELL
+Displays the current shell being used.
+
+4. pwd
+Displays the current working directory.
+
+5. ls -la
+Lists all files and directories, including hidden files.
+
+6. ping -c 4 google.com
+Verifies network connectivity by sending four packets to Google.
