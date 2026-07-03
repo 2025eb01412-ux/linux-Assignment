@@ -1,0 +1,11 @@
+cd ~/ProjectWorkspace
+echo "Linux Assignment" > original.txt
+ln original.txt hardlink.txt
+ln -s original.txt softlink.txt
+ls -li
+stat original.txt
+stat hardlink.txt
+stat softlink.txt
+rm original.txt
+cat hardlink.txt
+cat softlink.txt
