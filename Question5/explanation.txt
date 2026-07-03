@@ -1,0 +1,9 @@
+The storage devices were displayed successfully.
+
+Mounted file systems were listed correctly.
+
+Disk usage and inode usage were checked successfully.
+
+The storage has sufficient free space and appears healthy.
+
+Regular monitoring and cleanup help maintain storage performance.
