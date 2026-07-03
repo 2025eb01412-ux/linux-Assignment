@@ -1,0 +1,19 @@
+Link Analysis Report
+
+Original file: original.txt
+
+Hard link: hardlink.txt
+
+Symbolic link: softlink.txt
+
+Observation:
+The hard link shares the same inode as the original file.
+The symbolic link has a different inode.
+
+After deleting the original file:
+The hard link still works.
+The symbolic link becomes broken.
+
+Conclusion:
+Hard links point to the actual file data.
+Symbolic links point to the file path.
