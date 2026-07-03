@@ -1,0 +1,25 @@
+Project Workspace Report
+
+Directory Structure:
+ProjectWorkspace
+├── docs
+├── src
+└── backup
+
+Permissions Before:
+Default permissions were displayed using ls -ld.
+
+Permissions After:
+docs : 700
+src : 755
+backup : 700
+
+Ownership:
+Owner: thohithabondada
+Group: staff
+
+Umask:
+(Paste the output of the umask command here)
+
+Explanation:
+The permissions protect project files by allowing only authorized users to access or modify them.
