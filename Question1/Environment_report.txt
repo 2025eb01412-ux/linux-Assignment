@@ -1,0 +1,35 @@
+Linux Environment Verification Report
+
+1. Username:
+thohithabondada
+
+2. Groups:
+staff everyone localaccounts _appserverusr admin _appserveradm _appstore
+
+3. Current Shell:
+/bin/zsh
+
+4. Current Working Directory:
+/Users/thohithabondada
+
+5. Files and Directories:
+.CFUserTextEncoding
+.DS_Store
+.Trash
+.zsh_history
+.zsh_sessions
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+
+6. Network Connectivity:
+Command: ping -c 4 google.com
+
+Result:
+4 packets transmitted, 4 received, 0% packet loss.
+Network connectivity verified successfully.
