@@ -1,0 +1,8 @@
+cd ~/ProjectWorkspace
+echo "Linux I/O Test" > input.txt
+lsof | head
+ulimit -a
+ls > output.txt
+ls invalidfolder 2> error.txt
+cat output.txt
+cat error.txt
