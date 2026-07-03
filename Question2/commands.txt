@@ -1,0 +1,12 @@
+mkdir ProjectWorkspace
+cd ProjectWorkspace
+mkdir docs src backup
+touch docs/readme.txt
+ls -R
+ls -ld .
+ls -l docs
+chmod 700 docs
+chmod 755 src
+chmod 700 backup
+ls -ld docs src backup
+umask
