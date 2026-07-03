@@ -1,0 +1,23 @@
+mkdir ProjectWorkspace - Created a new project directory.
+
+cd ProjectWorkspace - Moved into the project directory.
+
+mkdir docs src backup - Created three subdirectories.
+
+touch docs/readme.txt - Created an empty file.
+
+ls -R - Displayed the directory structure.
+
+ls -ld . - Displayed directory permissions.
+
+ls -l docs - Displayed file permissions.
+
+chmod 700 docs - Restricted access to the docs directory.
+
+chmod 755 src - Allowed others to read and execute the src directory.
+
+chmod 700 backup - Restricted access to the backup directory.
+
+ls -ld docs src backup - Verified updated permissions.
+
+umask - Displayed the default permission mask.
